@@ -1,0 +1,55 @@
+author:
+  email: null
+  name: An Author
+  twitter: null
+  url: null
+baseurl: /map-2020-03-02-1
+collections:
+  annotations:
+    output: true
+    permalink: /annotations/:path/
+  volume_pages:
+    output: true
+    permalink: /pages/:path/
+defaults:
+- scope:
+    path: ''
+    type: volume_pages
+  values:
+    deep_zoom: true
+    extra_js:
+    - volume-page.js
+    - hammer.min.js
+    - deepzoom.js
+    - openseadragon.min.js
+    layout: volume_page
+    short_label: p.
+- scope:
+    path: ''
+    type: annotations
+  values:
+    layout: annotation
+description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
+gems:
+- jekyll-sitemap
+homepage_image: https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2/full/full/0/default.jpg
+image_size:
+  page:
+    height: 8537
+    width: 11856
+permalink: pretty
+publication_info:
+  date: '2020'
+  editors: []
+  title: "Antiqv\xE6 vrbis Rom\xE6 imago accvratiss ex vetvstis monvmentis ex vestigiis\
+    \ videlicet \xE6dificio"
+show_annotation_author: true
+source_info:
+  title: "Antiqv\xE6 vrbis Rom\xE6 imago accvratiss ex vetvstis monvmentis ex vestigiis\
+    \ videlicet \xE6dificio"
+  via_readux: true
+tagline: an annotated digital edition
+title: "Antiqv\xE6 vrbis Rom\xE6 imago accvratiss ex vetvstis monvmentis ex vestigiis\
+  \ videlicet \xE6dificio"
+url: https://sarepal.github.io
+version: 0.7

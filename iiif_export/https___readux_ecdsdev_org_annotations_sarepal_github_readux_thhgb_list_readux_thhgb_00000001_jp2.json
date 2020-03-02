@@ -1,0 +1,42 @@
+{
+    "@id": "https://readux.ecdsdev.org/annotations/sarepal-github/readux:thhgb/list/readux:thhgb_00000001.jp2",
+    "@type": "sc:AnnotationList",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "resources": [
+        {
+            "@id": "7d0a6732-82a9-4e63-90f8-321a4841f486",
+            "@type": "oa:Annotation",
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>An annotation.</p>",
+                "language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thhgb/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/readux:thhgb/canvas/readux:thhgb_00000001.jp2",
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1875,2755,2505,1609"
+                        },
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1874.89872,2754.81598h1252.56063v0h1252.56063v804.36662v804.36662h-1252.56063h-1252.56063v-804.36662z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_7787da8c-d553-4333-9961-ad7fd05965fe\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    },
+                    "value": "xywh=1875,2755,2505,1609"
+                }
+            },
+            "annotatedBy": {
+                "name": "Sara E. Palmer"
+            },
+            "motivation": "oa:commenting"
+        }
+    ]
+}

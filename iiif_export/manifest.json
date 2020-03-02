@@ -1,0 +1,141 @@
+{
+    "@type": "sc:Manifest",
+    "attribution": "Emory University Libraries",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "label": "Antiqv\u00e6 vrbis Rom\u00e6 imago accvratiss ex vetvstis monvmentis ex vestigiis videlicet \u00e6dificio",
+    "description": "The online edition of this book in the public domain, i.e., not protected by copyright, has been produced by Emory University Libraries. Manuscript, Archives, and Rare Book Library copy has sheets joined to create a single map. Bird's-eye view. Engraved by Franz Hogenberg. Title at top of view, sheet 1; index at bottom of view, sheet 2. Latin texts on versos with foliate intial. Sheet 1: Lectori; Roma trivmphans, Andreae Fvlvii antiquari; sheet 2: Populus Ro. gentivm princeps. Printed on verso of sheet 1: \"54\"; printed on verso of sheet 2: \"55\". From volume 4 of Georg Braun's Civitates orbis terrarvm. Related Names: Georg Braun 1540 or 1541-1622.; Frans Hogenberg approximately 1539-1590, engraver.; Gottfried von Kempen active 1576-1598, publisher.; Georg Braun 1540 or 1541-1622.",
+    "thumbnail": {
+        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2/full/600,/0/default.jpg",
+        "service": {
+            "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2",
+            "profile": "http://iiif.io/api/image/2/level1.json",
+            "@context": "http://iiif.io/api/image/2/context.json"
+        }
+    },
+    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thhgb/manifest",
+    "within": [
+        "https://readux.ecdsdev.org/collection/views-of-rome"
+    ],
+    "viewingHint": "paged",
+    "sequences": [
+        {
+            "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thhgb/sequence/normal",
+            "@type": "sc:Sequence",
+            "startCanvas": "https://readux.ecdsdev.org/iiif/readux:thhgb/canvas/readux:thhgb_00000001.jp2",
+            "label": "Current Page Order",
+            "canvases": [
+                {
+                    "@id": "https://readux.ecdsdev.org/iiif/readux:thhgb/canvas/readux:thhgb_00000001.jp2",
+                    "@type": "sc:Canvas",
+                    "height": 11856,
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thhgb/list/readux:thhgb_00000001.jp2",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        },
+                        {
+                            "label": "Annotations by admin",
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://readux.ecdsdev.org/annotations/admin/readux:thhgb/list/readux:thhgb_00000001.jp2"
+                        },
+                        {
+                            "label": "Annotations by jcmundy39",
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/readux:thhgb/list/readux:thhgb_00000001.jp2"
+                        },
+                        {
+                            "label": "Annotations by emory",
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://readux.ecdsdev.org/annotations/emory/readux:thhgb/list/readux:thhgb_00000001.jp2"
+                        },
+                        {
+                            "label": "Annotations by sarepal-github",
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://readux.ecdsdev.org/annotations/sarepal-github/readux:thhgb/list/readux:thhgb_00000001.jp2"
+                        }
+                    ],
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "width": 8537,
+                    "images": [
+                        {
+                            "@id": "https://readux.ecdsdev.org/iiif/readux:thhgb/annotation/readux:thhgb_00000001.jp2",
+                            "@type": "oa:Annotation",
+                            "resource": {
+                                "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 11856,
+                                "width": 8537,
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level2.json",
+                                    "@context": "https://iiif.io/api/image/2/context.json"
+                                }
+                            },
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "on": "https://readux.ecdsdev.org/iiif/readux:thhgb/canvas/readux:thhgb_00000001.jp2",
+                            "motivation": "sc:painting"
+                        }
+                    ],
+                    "label": "1",
+                    "thumbnail": {
+                        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thhgb_00000001.jp2/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    }
+                }
+            ]
+        }
+    ],
+    "viewingDirection": "left-to-right",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Ligorio, Pirro, approximately 1513-1583."
+        },
+        {
+            "label": "Publisher",
+            "value": "G. von Kempen"
+        },
+        {
+            "label": "Place of Publication",
+            "value": "Coloniae Agrippinae"
+        },
+        {
+            "label": "Publication Date",
+            "value": "1588"
+        },
+        {
+            "label": "Notes",
+            "value": [
+                {}
+            ]
+        },
+        {
+            "label": "Record Created",
+            "value": "2019-06-04T15:39:28.180Z"
+        },
+        {
+            "label": "Edition Type",
+            "value": "Readux IIIF Exported Edition"
+        },
+        {
+            "label": "About Readux",
+            "value": "https://readux.ecdsdev.org/about/"
+        },
+        {
+            "label": "Annotators",
+            "value": "Sara E. Palmer"
+        },
+        {
+            "label": "Export Date",
+            "value": "2020-03-02T20:03:33.568"
+        }
+    ],
+    "related": [
+        "https://readux.ecdsdev.org/volume/readux:thhgb/page/all"
+    ],
+    "logo": "https://readux.ecdsdev.org/media/logos/lits-logo-web.png"
+}
